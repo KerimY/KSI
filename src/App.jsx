@@ -47,7 +47,7 @@ function App() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/logo.avif" alt="KSI Production" />
+          <img src="./logo.avif" alt="KSI Production" />
         </motion.div>
         
         <button 
@@ -87,7 +87,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <img src="/logo.avif" alt="KSI Production" className="hero-logo" />
+          <img src="./logo.avif" alt="KSI Production" className="hero-logo" />
           <p className="hero-tagline">Creating Entertainment That Breaks The Internet</p>
           <div className="hero-buttons">
             <button onClick={() => scrollToSection('casting')} className="btn btn-primary">
@@ -292,7 +292,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/logo.avif" alt="KSI Production" />
+            <img src="./logo.avif" alt="KSI Production" />
           </div>
           <div className="footer-links">
             <button onClick={() => scrollToSection('hero')}>Home</button>
