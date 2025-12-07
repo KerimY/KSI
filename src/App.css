@@ -21,6 +21,28 @@
   box-sizing: border-box;
 }
 
+.contact-container-simple {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-text {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-email {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-container-simple .social-links {
+    justify-content: center;
+}
+
 html {
   scroll-behavior: smooth;
 }
